@@ -1,16 +1,38 @@
+/* This is done using class method */
 .head {
     color: rgb(0, 8, 255);
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
 }
+/* This is done normally */
 p {
-    color: red; 
+    color: rgb(166, 0, 255); 
     background-color: skyblue; 
     font-size: 14px;
 }
-#p1{
+/* This is done using id method */
+#p1 {
     color: black;
     font-family: 'Times New Roman', Times, serif;
     background-color: skyblue;
     font-size: 14px;
+}
+/* Understanding the border property */
+/* Creating a wireframe...*/
+.row {
+    border-style: groove;
+    border-color: red;
+    border-width: 2px;
+    /* Understanding Padding and Marging */
+    margin: 1px;
+    padding: 10px;
+}
+.col {
+    display: inline-block;
+    width: 272px;
+    border-style: groove;
+    border-color: rgb(60, 43, 92);
+    border-width: 2px;
+    margin: 3px;
+    padding: 10px; 
 }
