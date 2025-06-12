@@ -1,0 +1,22 @@
+body {
+    display: block;
+    margin: 0px;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    border-style: dashed;
+    height: 100px;
+    width: auto;
+}
+.col1 {
+    flex-basis: 250px;
+    border-style: groove;
+    flex-grow: 1;
+}
+.col2 {
+    flex-basis: 250px;
+    border-style: groove;
+    flex-grow: 1;
+}

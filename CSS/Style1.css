@@ -1,10 +1,6 @@
 * {
     box-sizing: border-box;
 }
-/*
-body {
-    margin: 0px;
-}*/
 .row {
     border-style: groove;
     border-color: black;
@@ -14,7 +10,7 @@ body {
     margin: 0px;
 }
 .col {
-    display: inline-block;
+    float: right;
     border-style: groove;
     border-width: 1px;
     height: 99px;

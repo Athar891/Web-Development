@@ -20,6 +20,7 @@ p {
 /* Understanding the border property */
 /* Creating a wireframe...*/
 .row {
+    height: 60px;
     border-style: groove;
     border-color: red;
     border-width: 2px;
@@ -27,12 +28,21 @@ p {
     margin: 1px;
     padding: 10px;
 }
-.col {
-    display: inline-block;
-    width: 272px;
+.col1 {
+    float: left;
+    width: 310px;
     border-style: groove;
     border-color: rgb(60, 43, 92);
     border-width: 2px;
-    margin: 3px;
-    padding: 10px; 
+    margin: 0px;
+    padding: 30px; 
+}
+.col2 {
+    float: Right;
+    width: 300px;
+    border-style: groove;
+    border-color: rgb(60, 43, 92);
+    border-width: 2px;
+    margin: 0px;
+    padding: 30px; 
 }
